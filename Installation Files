@@ -1,0 +1,12 @@
+apache-maven-3.8.3             apache-tomcat-9.0.54         hello-world-1  jdk-8u291-linux-x64.tar.gz   
+apache-maven-3.8.3-bin.tar.gz  apache-tomcat-9.0.54.tar.gz  jdk1.8.0_291   jenkins.war                 
+
+
+export JAVA_HOME="/opt/jdk1.8.0_291" 
+export PATH=$JAVA_HOME/bin:$PATH
+
+export M3_HOME="/opt/apache-maven-3.8.3 "
+export PATH=$M3_HOME/bin:$PATH
+
+export CATALINA_HOME="/opt/apache-tomcat-9.0.54"
+export PATH=$CATALINA_HOME/bin:$PATH	
