@@ -1,6 +1,35 @@
+download tomcat tar .gz file
+
+https://tomcat.apache.org/download-90.cgi  
+
+
+download jdk tar.gz file
+
+https://www.oracle.com/in/java/technologies/javase/javase8u211-later-archive-downloads.html
+
+
+download maven
+
+https://maven.apache.org/download.cgi
+
+
+download jenkins .war file
+
+https://updates.jenkins-ci.org/download/war/
+
+
+
+wget jdk/tomcat/maven/jenkins 
+tar -xzf resepctive name 
+
+
+
+
 apache-maven-3.8.3             apache-tomcat-9.0.54         hello-world-1  jdk-8u291-linux-x64.tar.gz   
 apache-maven-3.8.3-bin.tar.gz  apache-tomcat-9.0.54.tar.gz  jdk1.8.0_291   jenkins.war                 
 
+
+Update in  .profile for ubuntu
 
 export JAVA_HOME="/opt/jdk1.8.0_291" 
 export PATH=$JAVA_HOME/bin:$PATH
